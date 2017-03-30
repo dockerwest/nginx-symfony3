@@ -1,7 +1,7 @@
-Nginx image for laravel 5
+Nginx image for symfony 3
 =========================
 
-Nginx container for Laravel 5 applications. Laravel is not installed in the Image.
+Nginx container for Symfony 3 applications. Symfony is not installed in the Image.
 
 Versions
 --------
