@@ -14,10 +14,12 @@ Images
 ------
 
 The following images are available:
-- `dockerwest/nginx-symfony-3:stable`
-- `dockerwest/nginx-symfony-3:mainline`
-- `dockerwest/nginx-symfony-4:stable`
-- `dockerwest/nginx-symfony-4:mainline`
+- `dockerwest/nginx-symfony:stable` (for BC reasons, same as `:3-stable`)
+- `dockerwest/nginx-symfony:mainline` (for BC reasons, same as `:3-mainline`)
+- `dockerwest/nginx-symfony:3-stable`
+- `dockerwest/nginx-symfony:3-mainline`
+- `dockerwest/nginx-symfony:4-stable`
+- `dockerwest/nginx-symfony:4-mainline`
 
 
 License
