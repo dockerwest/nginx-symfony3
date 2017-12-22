@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 
-( cd stable; ./build.sh )
-( cd mainline; ./build.sh )
+( cd 3; ./buildall.sh )
+( cd 4; ./buildall.sh )
