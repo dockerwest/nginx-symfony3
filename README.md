@@ -1,7 +1,7 @@
 Nginx image for Symfony
 =======================
 
-Nginx container for Symfony 3/4 applications. Symfony is not installed in the Image.
+Nginx container for Symfony 3 applications. Symfony is not installed in the Image.
 
 Nginx versions
 --------------
@@ -14,12 +14,8 @@ Images
 ------
 
 The following images are available:
-- `dockerwest/nginx-symfony:stable` (for BC reasons, same as `:3-stable`)
-- `dockerwest/nginx-symfony:mainline` (for BC reasons, same as `:3-mainline`)
-- `dockerwest/nginx-symfony:3-stable`
-- `dockerwest/nginx-symfony:3-mainline`
-- `dockerwest/nginx-symfony:4-stable`
-- `dockerwest/nginx-symfony:4-mainline`
+- `dockerwest/nginx-symfony:stable`
+- `dockerwest/nginx-symfony:mainline`
 
 
 License
