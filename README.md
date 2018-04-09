@@ -3,6 +3,12 @@ Nginx image for Symfony
 
 Nginx container for Symfony 3 applications. Symfony is not installed in the Image.
 
+Document Root
+-------------
+
+The required document root for symfony is set to `<your symfony project>/web`.
+This is de recommended setup for symfony production.
+
 Environment variables
 ---------------------
 
