@@ -1,5 +1,5 @@
-Nginx image for Symfony
-=======================
+Nginx image for Symfony3
+========================
 
 Nginx container for Symfony 3 applications. Symfony is not installed in the Image.
 
@@ -31,7 +31,7 @@ additional configuration for a maintenance page. Or you could set
 `client_max_body_size`, ...
 
 ~~~ sh
-$ docker run -v /path/to/overrides.conf:/etc/nginx/include/overrides.conf dockerwest/nginx-symfony:<version>
+$ docker run -v /path/to/overrides.conf:/etc/nginx/include/overrides.conf dockerwest/nginx-symfony3:<version>
 ~~~
 
 Nginx versions
@@ -45,8 +45,8 @@ Images
 ------
 
 The following images are available:
-- `dockerwest/nginx-symfony:stable`
-- `dockerwest/nginx-symfony:mainline`
+- `dockerwest/nginx-symfony3:stable`
+- `dockerwest/nginx-symfony3:mainline`
 
 
 License
